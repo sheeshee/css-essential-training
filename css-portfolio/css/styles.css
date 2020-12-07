@@ -1,0 +1,48 @@
+/* COLOUR PALETTE
+------------------------------------
+generated at https://coolers.co
+
+#A4243B - Vivid burgundy
+#48A9A6 - Verdigris (turquoise-ish)
+#E4DFDA - Timberwolf (beige)
+#D4B483 - Burlywood (mustard yellow)
+#C1666B - Fuzzy Wuzzy (mute orange)
+------------------------------------*/
+
+/* General
+------------------------------------*/
+body {
+    background: #E4DFDA;
+    color: #A4243B;
+}
+
+/* Opening
+-----------------------------------*/
+header {
+    background: #C1666B;
+    color: #E4DFDA;
+
+}
+
+/* Projects
+-----------------------------------*/
+.projects {
+    background: #D4B483;
+}
+
+/* Work Experience
+-----------------------------------*/
+
+
+/* Education
+-----------------------------------*/
+
+
+/* Footer
+-----------------------------------*/
+
+footer {
+    background: #48A9A6;
+    color: #E4DFDA;
+}
+
