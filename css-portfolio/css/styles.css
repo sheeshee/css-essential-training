@@ -6,7 +6,7 @@ generated at https://coolers.co
 #48A9A6 - Verdigris (turquoise-ish)
 #E4DFDA - Timberwolf (beige)
 #D4B483 - Burlywood (mustard yellow)
-#C1666B - Fuzzy Wuzzy (mute orange)
+#C1666B - Fuzzy Wuzzy (salmon but not)
 ------------------------------------*/
 
 /* General
@@ -16,12 +16,25 @@ body {
     color: #A4243B;
 }
 
+.mylink {
+    border-radius: 3px; 
+    border: 1px solid transparent;
+}
+
+.mylink:hover {
+    border-color: black;
+}
+
 /* Opening
 -----------------------------------*/
 header {
     background: #C1666B;
     color: #E4DFDA;
+}
 
+header a {
+   color: #48A9A6;
+   font-size: larger;
 }
 
 /* Projects
@@ -46,3 +59,7 @@ footer {
     color: #E4DFDA;
 }
 
+footer a {
+    color: #A4243B;
+    font-size: larger;
+}

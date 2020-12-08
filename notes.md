@@ -79,3 +79,5 @@
     down takes precedence
   * important keyword can help but considered bad practice
     e.g. "font-size: 12px!important;"
+
+# Pseudo-classes
