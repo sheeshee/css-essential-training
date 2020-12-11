@@ -14,6 +14,11 @@ generated at https://coolers.co
 body {
     background: #E4DFDA;
     color: #A4243B;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0
 }
 
 .mylink {
@@ -24,6 +29,13 @@ body {
 .mylink:hover {
     border-color: black;
 }
+
+.section-content {
+    margin: 0 auto;
+    padding: 20px 20%;
+}
+
+
 
 /* Opening
 -----------------------------------*/
@@ -49,7 +61,10 @@ header a {
 
 /* Education
 -----------------------------------*/
-
+.education {
+    background: #C1666B;
+    color: #E4DFDA;
+}
 
 /* Footer
 -----------------------------------*/
