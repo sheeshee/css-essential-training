@@ -24,6 +24,8 @@ h1, h2 {
 .mylink {
     border-radius: 3px; 
     border: 1px solid transparent;
+    white-space: nowrap;
+
 }
 
 .mylink:hover {
