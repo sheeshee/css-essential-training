@@ -58,7 +58,28 @@ h1, h2 {
     padding: 20px 20%;
 }
 
+h3 {
+    margin-bottom: 0;
+}
 
+.item-details h3 + p {
+    /* matches to the p element directly after the h3 */
+    font-style: italic;
+}
+
+.item-details  h3 ~ p {
+    /* matches all p elements following a h3 element */
+    margin: 0
+}
+
+.divider  > section {
+    border-bottom: 1px dashed #A4243B;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom-style: none;
+}
 
 /* Opening
 -----------------------------------*/
@@ -79,8 +100,7 @@ header a {
 
 .project-item {
     overflow: hidden;
-    border-bottom: 1px dashed #A4243B;
-    padding: 25px 0;
+
 }
 
 .project-item img {

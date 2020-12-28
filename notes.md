@@ -153,3 +153,14 @@ Also justify-content
 explicit or implicit grid
 
 implicit grid with `grid-auto-columns(or rows)`
+
+# Advanced Selectors
+
+* Child Combinator
+* Descendent Combinator
+* Sibling Combinator
+
+* pseudo-class selectors:
+  * first or last
+  * first-of-type (last)
+  * first-of-child (last)
