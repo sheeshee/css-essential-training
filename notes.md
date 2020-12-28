@@ -81,3 +81,75 @@
     e.g. "font-size: 12px!important;"
 
 # Pseudo-classes
+
+* e.g. .button:hover {}
+# Font
+
+* Use Google Fonts
+
+# Text Decoration
+
+* `text-align`
+* `line-height`: same as font, no space. smaller, lines overlap
+  more, then bigger gap in lines
+  * Can also use relative e.g. % or a decimal
+* 
+
+# Float
+
+* originally to mimick print
+* The "clearfix" Hack
+
+# Positioned
+
+* static: not positioned
+* relative: relative to current position
+* absolute: relative to containing element
+* fixed: relative to the viewport
+* sticky: relative to containing element and viewport
+  * still in draft phase
+
+
+* All but static need position properties
+
+## z-index
+
+* The stacking context
+* default is order in which they appear in the document (after=ontop_)
+  * followed by float
+  * followed by inline
+  * followed by position documents
+
+
+# Grid and Flexbox
+
+Flexbox: usually one-dimensional: either x or y
+
+Grid: newer, two-dimensional
+
+# Flexbox
+
+* `display: flex;` or `display: flex-inline;`
+* height of each flex items adjusts to be length of longest flex item
+* `flex-direction` wither `row`, `column`, `row-reverse` or `column-reverse`
+* `flex-wrap: nowrap` or `wrap` or `wrap-reverse`
+* `flex-basis`, `flex-grow`, `flex-shrink`
+
+Align items for vertical alignment!
+Also justify-content
+
+## CSS Grid
+
+* `display: grid` or `inline-grid`
+* numerical index, 0-indexed
+* grid cell, grid track, gutters (`gap`), 
+
+* explicit grid
+  * `fr` fraction unit
+* or implicit grid
+
+* supported in all modern browsers
+
+explicit or implicit grid
+
+implicit grid with `grid-auto-columns(or rows)`

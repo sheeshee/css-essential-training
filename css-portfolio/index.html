@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Samuel Sheehy</title>
   </head>
@@ -37,9 +39,16 @@
         <p>View selected projects below.</p>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
+        <section class="project-item">
           <img src="images/thumbnail-1.jpg" alt="a description of image">
+          <h3>Project Name</h3>
+          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+          <!-- <a href="#" target="_blank">View project / case study</a> -->
+        </section>
+
+        <section class="project-item">
+          <img src="images/thumbnail-2.jpg" alt="a description of image">
+          <h3>Project Number 2</h3>
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <!-- <a href="#" target="_blank">View project / case study</a> -->
         </section>
@@ -54,18 +63,40 @@
           <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
 
           <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-            <p>Job summary goes here. Add as many paragraphs as you need.</p>
-            <p>Optional list:</p>
-            <ul>
-              <li>Delete this list if you don't need it.</li>
-              <li>Created...</li>
-              <li>Lead...</li>
-              <li>Responsible for...</li>
-            </ul>
+          <section class="job-item">
+            <div>
+              <h3>Job title</h3>
+              <p>Company Name</p>
+              <p>Date at job</p>
+            </div>
+            <div>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Optional list:</p>
+              <ul>
+                <li>Delete this list if you don't need it.</li>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="job-item">
+            <div>
+              <h3>Job title 2</h3>
+              <p>Company Name</p>
+              <p>Date at job</p>
+            </div>
+            <div>
+              <p>Job summary goes here. Add as many paragraphs as you need.</p>
+              <p>Optional list:</p>
+              <ul>
+                <li>Delete this list if you don't need it.</li>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for...</li>
+              </ul>
+            </div>
           </section>
           <!-- End of Job block. -->
         </div>
@@ -92,7 +123,7 @@
           <h2>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
+          <ul class="contact-list">
             <li><a class="mylink" href="mailto:email@example.com">samuelsheehy95@gmail.com</a></li>
             <li><a class="mylink" href="http://sheeshee.github.io" target="_blank">sheeshee.github.io</a></li>
             <li><a class="mylink" href="http://linkedin.com/in/samuel-sheehy" target="_blank">LinkedIn</a></li>

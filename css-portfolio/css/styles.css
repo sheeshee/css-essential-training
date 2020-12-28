@@ -11,14 +11,35 @@ generated at https://coolers.co
 
 /* General
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #E4DFDA;
     color: #A4243B;
     margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 h1, h2 {
-    margin: 0
+    margin: 10px 0 10px;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 .mylink {
@@ -48,7 +69,6 @@ header {
 
 header a {
    color: #48A9A6;
-   font-size: larger;
 }
 
 /* Projects
@@ -57,9 +77,28 @@ header a {
     background: #D4B483;
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #A4243B;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
 /* Work Experience
 -----------------------------------*/
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 
+}
 
 /* Education
 -----------------------------------*/
@@ -74,9 +113,20 @@ header a {
 footer {
     background: #48A9A6;
     color: #E4DFDA;
+    text-align: center;
 }
 
 footer a {
     color: #A4243B;
-    font-size: larger;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
 }
