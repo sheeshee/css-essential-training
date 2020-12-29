@@ -54,8 +54,10 @@ h1, h2 {
 }
 
 .section-content {
+    max-width: 800px;
+    width: 85%;
     margin: 0 auto;
-    padding: 20px 20%;
+    padding: 60px 0;
 }
 
 h3 {
