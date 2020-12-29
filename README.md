@@ -9,4 +9,4 @@ The course URL is https://www.linkedin.com/learning/css-essential-training-3/
 
 See the project live at the following URL: https://sheeshee.github.io/css-essential-training/
 
-(I put the project files in the `docs/` folder to seperate them from my notes and gitignore files.)
+(I put the project files in the `docs/` folder to separate them from my notes and gitignore files.)
