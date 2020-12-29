@@ -125,8 +125,14 @@ header a {
 /* Education
 -----------------------------------*/
 .education {
-    background: #C1666B;
-    color: #E4DFDA;
+    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    color: #A4243B;
+}
+
+.education p {
+    width: 55%
 }
 
 /* Footer
