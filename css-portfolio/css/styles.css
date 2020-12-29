@@ -105,22 +105,13 @@ header a {
 
 }
 
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
-
 .project-item h3 {
     margin-top: 0;
 }
 
 /* Work Experience
 -----------------------------------*/
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
 
-}
 
 /* Education
 -----------------------------------*/
@@ -151,10 +142,30 @@ footer a {
 .contact-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .contact-list a {
     padding: 15px;
+    display: block;
+}
+
+/* Responsive
+-----------------------------------*/
+
+@media screen and (min-width: 800px) {
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
 }

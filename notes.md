@@ -165,3 +165,25 @@ implicit grid with `grid-auto-columns(or rows)`
   * first-of-type (last)
   * first-of-child (last)
 
+
+# Media Queries
+
+* Media type
+  * all
+  * print: e.g. print preview
+  * speech: screen reading
+  * screen: everything but print and speech
+  * others existed, but since deprecated
+  
+* Media features:
+  * tests for the device showing the screen
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+## Width Media Feature
+
+* Use with min-width and max-width as breakpoints
+* Desktop first (max-width) vs Mobile First (min-width)
+
+## Testing
+
